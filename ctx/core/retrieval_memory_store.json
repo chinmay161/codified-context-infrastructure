@@ -1,0 +1,84 @@
+{
+  "a|architecture|context|design|engine|for|layer|orchestration": {
+    "successful_docs": [],
+    "failed_docs": [],
+    "boosted_docs": [],
+    "successful_keywords": [],
+    "total_uses": 9,
+    "weight_adjustments": {
+      "bm25": 0.0,
+      "semantic": 0.0,
+      "graph": 0.02,
+      "boost": 0.0,
+      "memory": 0.01
+    }
+  },
+  "combat|damage|debug|enemy|gameplay|in|issue|sync|systems": {
+    "successful_docs": [
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\host-authoritative-damage-spec.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\ui-sync-patterns.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\enemy-combat-system.md"
+    ],
+    "failed_docs": [],
+    "boosted_docs": [
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\host-authoritative-damage-spec.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\ui-sync-patterns.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\enemy-combat-system.md"
+    ],
+    "successful_keywords": [
+      "combat",
+      "damage",
+      "debug",
+      "enemy",
+      "gameplay",
+      "host",
+      "in",
+      "sync",
+      "system",
+      "systems"
+    ],
+    "total_uses": 9,
+    "success_count": 9,
+    "weight_adjustments": {
+      "bm25": 0.0,
+      "semantic": 0.0,
+      "graph": 0.0,
+      "boost": -0.005,
+      "memory": -0.005
+    }
+  },
+  "a|generic|repository|summarize|workflow": {
+    "successful_docs": [
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v3.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v2.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v4.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.md"
+    ],
+    "failed_docs": [],
+    "boosted_docs": [
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v3.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v2.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v4.md",
+      "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.md"
+    ],
+    "successful_keywords": [
+      "a",
+      "generic",
+      "repository",
+      "summarize",
+      "summary",
+      "v2",
+      "v3",
+      "workflow"
+    ],
+    "total_uses": 9,
+    "success_count": 9,
+    "weight_adjustments": {
+      "bm25": 0.0,
+      "semantic": 0.0,
+      "graph": 0.0,
+      "boost": 0.0,
+      "memory": 0.0
+    }
+  }
+}

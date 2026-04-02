@@ -49,6 +49,17 @@ Use the files here as reference material for:
 
 The remaining materials are intentionally tool-agnostic at the repository level, even where the underlying research data comes from a specific assistant workflow.
 
+## Grok Execution
+
+The context engine can now execute the generated prompt through xAI Grok instead of stopping at prompt construction.
+
+1. Copy `.env.example` to `.env` if needed.
+2. Set `XAI_API_KEY` to your xAI API key for Grok and optionally `GEMINI_API_KEY` for Gemini fallback.
+3. Optionally change `XAI_MODEL` from the default `grok-4-1-fast-non-reasoning` and `GEMINI_MODEL` from the default `gemini-2.5-flash`.
+4. Optionally set `CTX_LLM_PROVIDER_ORDER=grok,gemini` to control provider failover order.
+
+If Grok fails and Gemini is configured, the engine automatically retries on Gemini. If neither provider is configured, the engine falls back to mock execution and returns the built prompt as the output payload. Set `CTX_EXECUTION_MODE=mock` to force that fallback even when keys exist.
+
 ## Paper-to-Repo Mapping
 
 | Paper Section | Repo Directory |

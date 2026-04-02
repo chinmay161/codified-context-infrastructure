@@ -1,0 +1,415 @@
+{
+  "engine": "v3",
+  "summary": {
+    "avg_retrieval_score": 0.7263,
+    "routing_score_pct": 100.0,
+    "trajectory_score": 1.0,
+    "avg_context_utilization": 1.0,
+    "avg_latency_ms": 70.85,
+    "avg_latency_score": 1.0,
+    "avg_overall_score": 0.9431,
+    "failure_breakdown": {
+      "ok": 3
+    }
+  },
+  "results": [
+    {
+      "task": "design architecture for a context engine orchestration layer",
+      "trace_id": "d591d4b8-75da-4e6c-b5b6-04f6256d47e8",
+      "expected_agent": "ContextArchitect",
+      "expected_keywords": [
+        "architecture",
+        "context",
+        "engine",
+        "agent",
+        "planning"
+      ],
+      "selected_agent": "ContextArchitect",
+      "retrieval_score": 0.5455,
+      "retrieval_precision_at_k": 1.0,
+      "retrieval_miss_penalty": 0.4545,
+      "observed_keywords": [
+        "a",
+        "architecture",
+        "context",
+        "engine",
+        "for",
+        "system"
+      ],
+      "routing_score": 1.0,
+      "routing_confidence": 1.0,
+      "trajectory_score": 1.0,
+      "context_utilization": 1.0,
+      "latency_ms": 197.14,
+      "latency_score": 1.0,
+      "failure_mode": "ok",
+      "overall_score": 0.9273,
+      "boost_effect": [
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.md",
+          "before_rank": 3,
+          "after_rank": 1
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v2.md",
+          "before_rank": 6,
+          "after_rank": 2
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v4.md",
+          "before_rank": 7,
+          "after_rank": 3
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v3.md",
+          "before_rank": 8,
+          "after_rank": 4
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\drop-system.md",
+          "before_rank": 1,
+          "after_rank": 5
+        }
+      ],
+      "boosted_docs": [
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v2.md",
+          "boost_value": 0.3125,
+          "static_components": {
+            "generated": 0.15,
+            "recent": 0.1,
+            "origin_task": 0.0625,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.0,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.0,
+            "memory_confidence": 0.0
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v3.md",
+          "boost_value": 0.3125,
+          "static_components": {
+            "generated": 0.15,
+            "recent": 0.1,
+            "origin_task": 0.0625,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.0,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.0,
+            "memory_confidence": 0.0
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.md",
+          "boost_value": 0.3125,
+          "static_components": {
+            "generated": 0.15,
+            "recent": 0.1,
+            "origin_task": 0.0625,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.0,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.0,
+            "memory_confidence": 0.0
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v4.md",
+          "boost_value": 0.3125,
+          "static_components": {
+            "generated": 0.15,
+            "recent": 0.1,
+            "origin_task": 0.0625,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.0,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.0,
+            "memory_confidence": 0.0
+          }
+        }
+      ],
+      "memory_hit": false,
+      "memory_confidence": 0.0,
+      "trace_steps": [
+        "select_agent",
+        "retrieve_context",
+        "build_prompt"
+      ]
+    },
+    {
+      "task": "debug enemy combat damage sync issue in gameplay systems",
+      "trace_id": "994ff104-0cc9-424f-9632-8729ea56481a",
+      "expected_agent": "GameplayKnowledgeAgent",
+      "expected_keywords": [
+        "enemy",
+        "combat",
+        "damage",
+        "sync",
+        "ui"
+      ],
+      "selected_agent": "GameplayKnowledgeAgent",
+      "retrieval_score": 0.8,
+      "retrieval_precision_at_k": 1.0,
+      "retrieval_miss_penalty": 0.2,
+      "observed_keywords": [
+        "combat",
+        "damage",
+        "debug",
+        "enemy",
+        "gameplay",
+        "in",
+        "sync",
+        "systems"
+      ],
+      "routing_score": 1.0,
+      "routing_confidence": 1.0,
+      "trajectory_score": 1.0,
+      "context_utilization": 1.0,
+      "latency_ms": 8.51,
+      "latency_score": 1.0,
+      "failure_mode": "ok",
+      "overall_score": 0.996,
+      "boost_effect": [],
+      "boosted_docs": [
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\enemy-combat-system.md",
+          "boost_value": 0.85,
+          "static_components": {
+            "generated": 0.0,
+            "recent": 0.0,
+            "origin_task": 0.0,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.4,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.15,
+            "memory_confidence": 0.3
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v2.md",
+          "boost_value": -0.2,
+          "static_components": {
+            "generated": 0.0,
+            "recent": 0.0,
+            "origin_task": 0.0,
+            "irrelevant_generated": -0.2
+          },
+          "memory_components": {
+            "memory_success": 0.0,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.0,
+            "memory_confidence": 0.0
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v3.md",
+          "boost_value": -0.2,
+          "static_components": {
+            "generated": 0.0,
+            "recent": 0.0,
+            "origin_task": 0.0,
+            "irrelevant_generated": -0.2
+          },
+          "memory_components": {
+            "memory_success": 0.0,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.0,
+            "memory_confidence": 0.0
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.md",
+          "boost_value": -0.2,
+          "static_components": {
+            "generated": 0.0,
+            "recent": 0.0,
+            "origin_task": 0.0,
+            "irrelevant_generated": -0.2
+          },
+          "memory_components": {
+            "memory_success": 0.0,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.0,
+            "memory_confidence": 0.0
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v4.md",
+          "boost_value": -0.2,
+          "static_components": {
+            "generated": 0.0,
+            "recent": 0.0,
+            "origin_task": 0.0,
+            "irrelevant_generated": -0.2
+          },
+          "memory_components": {
+            "memory_success": 0.0,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.0,
+            "memory_confidence": 0.0
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\ui-sync-patterns.md",
+          "boost_value": 0.85,
+          "static_components": {
+            "generated": 0.0,
+            "recent": 0.0,
+            "origin_task": 0.0,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.4,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.15,
+            "memory_confidence": 0.3
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\case-study\\context-docs\\host-authoritative-damage-spec.md",
+          "boost_value": 0.85,
+          "static_components": {
+            "generated": 0.0,
+            "recent": 0.0,
+            "origin_task": 0.0,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.4,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.15,
+            "memory_confidence": 0.3
+          }
+        }
+      ],
+      "memory_hit": true,
+      "memory_confidence": 1.0,
+      "trace_steps": [
+        "select_agent",
+        "retrieve_context",
+        "build_prompt"
+      ]
+    },
+    {
+      "task": "summarize a generic repository workflow",
+      "trace_id": "98bc2f3e-4f71-4051-aa6a-7f97ec39170a",
+      "expected_agent": "GeneralistAgent",
+      "expected_keywords": [
+        "summary",
+        "repository",
+        "workflow"
+      ],
+      "selected_agent": "GeneralistAgent",
+      "retrieval_score": 0.8333,
+      "retrieval_precision_at_k": 0.8,
+      "retrieval_miss_penalty": 0.1667,
+      "observed_keywords": [
+        "a",
+        "generic",
+        "repository",
+        "summarize",
+        "workflow"
+      ],
+      "routing_score": 1.0,
+      "routing_confidence": 0.0,
+      "trajectory_score": 1.0,
+      "context_utilization": 1.0,
+      "latency_ms": 6.9,
+      "latency_score": 1.0,
+      "failure_mode": "ok",
+      "overall_score": 0.906,
+      "boost_effect": [],
+      "boosted_docs": [
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v2.md",
+          "boost_value": 1.6,
+          "static_components": {
+            "generated": 0.15,
+            "recent": 0.1,
+            "origin_task": 0.5,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.4,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.15,
+            "memory_confidence": 0.3
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v3.md",
+          "boost_value": 1.6,
+          "static_components": {
+            "generated": 0.15,
+            "recent": 0.1,
+            "origin_task": 0.5,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.4,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.15,
+            "memory_confidence": 0.3
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.md",
+          "boost_value": 1.6,
+          "static_components": {
+            "generated": 0.15,
+            "recent": 0.1,
+            "origin_task": 0.5,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.4,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.15,
+            "memory_confidence": 0.3
+          }
+        },
+        {
+          "path": "C:\\Users\\Chinmay\\Desktop\\Vs Code\\codified-context-infrastructure\\ctx\\corpus\\knowledge_base\\summary-repository.v4.md",
+          "boost_value": 1.6,
+          "static_components": {
+            "generated": 0.15,
+            "recent": 0.1,
+            "origin_task": 0.5,
+            "irrelevant_generated": 0.0
+          },
+          "memory_components": {
+            "memory_success": 0.4,
+            "memory_failure": 0.0,
+            "memory_boosted": 0.15,
+            "memory_confidence": 0.3
+          }
+        }
+      ],
+      "memory_hit": true,
+      "memory_confidence": 1.0,
+      "trace_steps": [
+        "select_agent",
+        "retrieve_context",
+        "build_prompt"
+      ]
+    }
+  ],
+  "comparison": null,
+  "corpus_update": {
+    "gaps_detected": 0,
+    "docs_created": [],
+    "enrichment": [],
+    "status": "no_changes"
+  }
+}

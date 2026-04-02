@@ -1,0 +1,56 @@
+{
+  "knowledge_paths": [
+    "case-study/context-docs"
+  ],
+  "agents": [
+    {
+      "name": "ContextArchitect",
+      "description": "Designs architecture-aware plans using repository context documents.",
+      "domain": [
+        "architecture",
+        "context-engineering",
+        "system-design"
+      ],
+      "spec_path": "ctx/config/routing.json#ContextArchitect",
+      "keywords": [
+        "architecture",
+        "context",
+        "engine",
+        "system",
+        "design",
+        "agent",
+        "planning"
+      ]
+    },
+    {
+      "name": "GameplayKnowledgeAgent",
+      "description": "Interprets gameplay and domain system documentation from markdown knowledge sources.",
+      "domain": [
+        "gameplay",
+        "systems",
+        "knowledge-retrieval"
+      ],
+      "spec_path": "ctx/config/routing.json#GameplayKnowledgeAgent",
+      "keywords": [
+        "combat",
+        "enemy",
+        "drop",
+        "damage",
+        "save",
+        "sync",
+        "ui"
+      ]
+    },
+    {
+      "name": "GeneralistAgent",
+      "description": "Fallback agent for tasks that do not strongly match a specialized route.",
+      "domain": [
+        "general",
+        "analysis",
+        "execution"
+      ],
+      "spec_path": "ctx/config/routing.json#GeneralistAgent",
+      "keywords": []
+    }
+  ]
+}

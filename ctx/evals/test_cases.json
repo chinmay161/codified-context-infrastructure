@@ -1,0 +1,22 @@
+[
+  {
+    "task": "design architecture for a context engine orchestration layer",
+    "expected_agent": "ContextArchitect",
+    "expected_keywords": ["architecture", "context", "engine", "agent", "planning"],
+    "context_tags": ["system-design"],
+    "expected_flow": ["select_agent", "retrieve_context", "build_prompt", "generate_response"]
+  },
+  {
+    "task": "debug enemy combat damage sync issue in gameplay systems",
+    "expected_agent": "GameplayKnowledgeAgent",
+    "expected_keywords": ["enemy", "combat", "damage", "sync", "ui"],
+    "context_tags": ["gameplay"],
+    "expected_flow": ["select_agent", "retrieve_context", "build_prompt", "generate_response"]
+  },
+  {
+    "task": "summarize a generic repository workflow",
+    "expected_agent": "GeneralistAgent",
+    "expected_keywords": ["summary", "repository", "workflow"],
+    "expected_flow": ["select_agent", "retrieve_context", "build_prompt", "generate_response"]
+  }
+]
