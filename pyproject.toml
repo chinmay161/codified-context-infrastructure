@@ -1,0 +1,31 @@
+[project]
+name = "codified-context"
+version = "1.0.0"
+description = "Adaptive AI context infrastructure"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "pydantic"
+]
+
+[project.scripts]
+ctx = "ctx.cli:main"
+ctx-factory = "ctx.factory.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ctx = [
+  "config/*.json",
+  "corpus/knowledge_base/*.md"
+]

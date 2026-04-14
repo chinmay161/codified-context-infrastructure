@@ -5,6 +5,8 @@ __pycache__/
 .venv/
 dist/
 build/
+.pytest_cache/
+.ctx/
 
 # OS
 .DS_Store
